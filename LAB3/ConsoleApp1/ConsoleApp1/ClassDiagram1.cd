@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Metody PodejmijPaczke i DostarczPaczke modyfikuja  pola odebrana lub doreczona podczas gdy metoda ZmienLokalizację dotyczy tylko zmiany lokalizacji">
+    <Position X="3.725" Y="10.546" Height="0.902" Width="2.802" />
+  </Comment>
+  <Comment CommentText="3 nietrywialne klasy dziedziczace po klasie abstrakcyjnej">
+    <Position X="5.435" Y="3.028" Height="0.76" Width="1.7" />
+  </Comment>
+  <Comment CommentText="5 nietrywialnych klas dziedziczacych po klasie abstrakcyjnej">
+    <Position X="17.113" Y="3.551" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Właściwość Status określa w jakiej lokalizacji znajduje się dana przesyłka">
+    <Position X="6.379" Y="0.788" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="3 nietrywialne klasy dziedziczace po klasie abstrakcyjnej">
+    <Position X="9.223" Y="9.164" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="5 nietrywialnych klas dziedziczacych po klasie abstrakcyjnej">
+    <Position X="24.208" Y="9.224" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Właściwość Lokalizacja typu Sortownia określa z która sortownia zwiazany jest dany pojazd">
+    <Position X="18.75" Y="9" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Warto wyróznić centralę jako szczególny przypadek klasy Sortownia o zwiekszonych mozliwosciach sortowania paczek">
+    <Position X="17.278" Y="7.668" Height="0.858" Width="2.215" />
+  </Comment>
+  <Class Name="ConsoleApp1.Przesylka">
+    <Position X="4" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAQAEAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Przesylka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Lokalizacja">
+    <Position X="15.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Lokalizacja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Paczka">
+    <Position X="0.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAXAEAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Paczka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.List">
+    <Position X="4.25" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>List.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.PrzesylkaGabarytowa">
+    <Position X="7.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAHAEAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>PrzesylkaGabarytowa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Paczkomat">
+    <Position X="11.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Paczkomat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.DoOdbioru">
+    <Position X="14.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DoOdbioru.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.DoDostarczenia">
+    <Position X="17.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>DoDostarczenia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Sortownia">
+    <Position X="20" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>Sortownia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Kurier">
+    <Position X="0.5" Y="10.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAACAAAAACAAAAAAAAAABAAAAAACAAgA=</HashCode>
+      <FileName>Kurier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Klient">
+    <Position X="6.75" Y="10.5" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAACAACEBABAAAAABAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Klient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Osoba">
+    <Position X="5.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Pojazd">
+    <Position X="20.75" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAiA=</HashCode>
+      <FileName>Pojazd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Rower">
+    <Position X="16.25" Y="10.5" Width="3" />
+    <InheritanceLine Type="ConsoleApp1.Pojazd" FixedToPoint="true">
+      <Path>
+        <Point X="22.125" Y="9.497" />
+        <Point X="22.125" Y="10.125" />
+        <Point X="17.75" Y="10.125" />
+        <Point X="17.75" Y="10.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAiA=</HashCode>
+      <FileName>Rower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Van">
+    <Position X="20.5" Y="10.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAEAAAAAAAAAABAAAAAAiA=</HashCode>
+      <FileName>Van.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.WRuchu">
+    <Position X="23" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>WRuchu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Dron">
+    <Position X="25" Y="10.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAiA=</HashCode>
+      <FileName>Dron.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Samolot">
+    <Position X="29" Y="10.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAiA=</HashCode>
+      <FileName>Samolot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Ciezarowka">
+    <Position X="27" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAiA=</HashCode>
+      <FileName>Ciezarowka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.Centrala">
+    <Position X="16" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAEAAAAAAAAAgA=</HashCode>
+      <FileName>Centrala.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsoleApp1.PracownikSortowni">
+    <Position X="11.5" Y="8" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAABAAAAAACAAAA=</HashCode>
+      <FileName>PracownikSortowni.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
